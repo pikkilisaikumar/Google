@@ -10,7 +10,8 @@ class GoogleSuggestions extends Component {
   onChangeSearchInput = event => {
     this.setState({searchInput: event.target.value})
   }
-
+//   here my thinging is onChangeSearchInput is not defined............because  onChangeSearchInput before we don't use any let or const so that' why? 
+//even in  UpdateBtn before also we don't use........... 
   onUpdateBtn = suggestion => {
     this.setState({searchInput: suggestion})
   }
