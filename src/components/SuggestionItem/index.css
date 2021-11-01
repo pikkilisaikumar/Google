@@ -1,0 +1,13 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.imagerelated {
+  height: 30px;
+  width: 30px;
+}
+.buttonone {
+  border-width: 0px;
+  background-color: transparent;
+}
