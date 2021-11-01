@@ -7,6 +7,7 @@ const SuggestionItem = props => {
   const onDeleteBtn = () => {
     onUpdateBtn(suggestion)
   }
+  //onDeleteBtn before use the const why sir? in GoogleSuggestions Component of index.js we don't write the let or const on before function........But here const is must ......please clarify mydoubt
 
   return (
     <li className="list-item">
